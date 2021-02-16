@@ -48,3 +48,4 @@ exports.calculate = function(req, res) {
 
   res.json({ result: operation(req.query.operand1, req.query.operand2) });
 };
+// Using + operator to type cast variables as integers in order to prevent string concatenation`
